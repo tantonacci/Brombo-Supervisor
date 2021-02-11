@@ -68,12 +68,7 @@ client.on('message', async msg => {
 						client.channels.cache.get(maintenance_id[channel_number]).send("Hey <@" + user + ">, you sound awfully dumb right now");
 					break;
 					default:
-						let A = 'a';
-						for (let i = 1; i < diff; i++){
-							A += 'a';
-						}
-						
-						client.channels.cache.get(maintenance_id[channel_number]).send("<@" + user + "> is g" + A + "y");
+						client.channels.cache.get(maintenance_id[channel_number]).send("<@" + user + "> smells bad");
 					break;
 				}
 				msg.react('697521710391492638');
