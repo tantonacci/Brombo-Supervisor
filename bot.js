@@ -1,3 +1,8 @@
+//
+//Deprecated - Read BromboSupervisor.py
+//
+//////////////////////////////////////////////////////////
+
 // Run dotenv
 require('dotenv').config();
 
